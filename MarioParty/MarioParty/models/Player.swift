@@ -22,8 +22,8 @@ let players : [Player] =
     [
     Player(name: "Mario"),
     Player(name: "Bowser"),
-    Player(name: "peach"),
-    Player(name: "luigi"),
-    Player(name: "yoshi"),
-    Player(name: "waluigi")]
+    Player(name: "Peach"),
+    Player(name: "Luigi"),
+    Player(name: "Yoshi"),
+    Player(name: "Waluigi")]
 

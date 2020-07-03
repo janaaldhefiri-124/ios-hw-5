@@ -22,10 +22,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        //nextButton.isUserInteractionEnabled = false
-        playBackgroundMusic(musicName: "BG.wav")
+        let path = Bundle.main.path(forResource: "BG.wav", ofType:nil)!
+               let url = URL(fileURLWithPath: path)
+
+               do {
+                   playerSoundEffect = try AVAudioPlayer(contentsOf: url)
+                   playerSoundEffect?.play()
+               } catch {
+                   // couldn't load file :(
+               }
     }
 
     
