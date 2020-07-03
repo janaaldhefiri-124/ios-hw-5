@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FBC734824AF05A600EF2D23 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC734724AF05A600EF2D23 /* Player.swift */; };
+		8FBC734B24AF0D4F00EF2D23 /* PlayerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC734A24AF0D4F00EF2D23 /* PlayerDetailsVC.swift */; };
 		9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4124299E69006D3BD4 /* AppDelegate.swift */; };
 		9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4324299E69006D3BD4 /* SceneDelegate.swift */; };
 		9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4524299E69006D3BD4 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FBC734724AF05A600EF2D23 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8FBC734A24AF0D4F00EF2D23 /* PlayerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsVC.swift; sourceTree = "<group>"; };
 		9449EE3E24299E69006D3BD4 /* MarioParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9449EE4124299E69006D3BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9449EE4324299E69006D3BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FBC734624AF054700EF2D23 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC734724AF05A600EF2D23 /* Player.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8FBC734924AF0CFD00EF2D23 /* view controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				9449EE4524299E69006D3BD4 /* ViewController.swift */,
+				8FBC734A24AF0D4F00EF2D23 /* PlayerDetailsVC.swift */,
+			);
+			path = "view controllers ";
+			sourceTree = "<group>";
+		};
 		9449EE3524299E68006D3BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +97,10 @@
 		9449EE4024299E69006D3BD4 /* MarioParty */ = {
 			isa = PBXGroup;
 			children = (
+				8FBC734924AF0CFD00EF2D23 /* view controllers  */,
+				8FBC734624AF054700EF2D23 /* models */,
 				9449EE4124299E69006D3BD4 /* AppDelegate.swift */,
 				9449EE4324299E69006D3BD4 /* SceneDelegate.swift */,
-				9449EE4524299E69006D3BD4 /* ViewController.swift */,
 				9449EE4724299E69006D3BD4 /* Main.storyboard */,
 				D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */,
 				9449EE4A24299E6D006D3BD4 /* Assets.xcassets */,
@@ -202,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBC734824AF05A600EF2D23 /* Player.swift in Sources */,
+				8FBC734B24AF0D4F00EF2D23 /* PlayerDetailsVC.swift in Sources */,
 				9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */,
 				9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */,
 				9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */,
